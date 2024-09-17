@@ -1,0 +1,38 @@
+header {
+    background-color: rgb(125, 219, 96);
+    height: 50px;
+    text-align: center;
+    
+}
+header a {
+    margin-bottom: -150px;
+    color: rgb(247, 255, 251);
+    text-decoration: none;
+    text-align: center;
+    font-size: 35px;
+    background-color: rgba(39, 35, 35, 0.329);
+    border-radius: 3px;
+    padding: auto;
+}
+header p {
+    font-style:unset;
+    color: rgb(12, 12, 80);
+    
+}
+main {
+    margin-right: 250px;
+
+}
+aside {
+    text-align: center;
+    background-color: rgb(165, 236, 195);
+    margin-left: 1650px ;
+    margin-top: -175px;
+    
+}
+
+footer {
+    margin: auto;
+    margin-top: 750px;
+    background-color: rgb(135, 229, 143);
+}
