@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="/Naudas-dievs/Style/home.css" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+    </head>
+
+<body>
+    <header>
+        <div class="hamburger" onclick="toggleHeader()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="header-content">
+            <div class="home">
+                <a href="home.html">Home</a>
+                <div class="dropdown-content home-dropdown">
+                    <a href="#">Klienti</a>
+                    <a href="#">Sigmas</a>
+                </div>
+            </div>
+            <div class="contacts">
+                <a href="contacts.html">Contacts</a>
+                <div class="dropdown-content contacts-dropdown">
+                    <a href="#">Tālrunis</a>
+                    <a href="#">Epasts</a>
+                </div>
+            </div>
+            <div class="about">
+                <a href="about.html">About</a>
+                <div class="dropdown-content about-dropdown">
+                    <a href="#">Dibināšana</a>
+                    <a href="#">Skibidi</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="kartes">
+        <a class="kartes-box" href="history.html"> Budget History <p class="karte"> Browse your previous budgets!</p><img class="bilde" src="../Additions/logo-removebg-preview.png" alt="bilde"></a>
+        <a class="kartes-box" href="planner.html"> Plan Your Budget <p class="karte"> Plan your money for the future! </p><img class="bilde" src="../Additions/logo-removebg-preview.png" alt="bilde"></a>
+        <a class="kartes-box" href="overview.html"> Lifetime Overview <p class="karte"> All that you have done with Naudas-Dievs! </p><img class="bilde" src="../Additions/logo-removebg-preview.png" alt="bilde"></a>
+        <button id="myBtn" class="modal-karte">Learn more</button>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+              <span class="close">&times;</span>
+              <h2>Learn More</h2>
+            </div>
+            <div class="modal-body">
+              <p>Naudas dievs ir Latvijā vadošais budžeta plānošanas rīks!</p>
+              <p>Veidoja pasaulē pieredzējušākais programmētājs - Lauris Golde</p>
+            </div>
+            <div class="modal-footer">
+              <h3>© 2024 Naudas Dievs</h3>
+          </div>
+        </div>
+    </div>
+    
+
+    <footer>
+        <p>Autortiesības aizsargā SIA "SIGMA AIZSARGĀTĀJI"</p>
+    </footer>
+
+    <script src="../Script/home.js"></script>
+</body>
+</html>

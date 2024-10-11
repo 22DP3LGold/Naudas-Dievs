@@ -1,0 +1,60 @@
+body {
+    background-image: url(/Naudas-dievs/Additions/nalix.gif);
+    background-size: cover;
+}
+
+header {
+    background: linear-gradient(90deg, rgb(125, 219, 96), #00791a);
+    height: 50px;
+    text-align: center;
+    transition: 0.5s ease-in-out 0.2s;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header a {
+
+    color: rgb(247, 255, 251);
+    text-decoration: none;
+    text-align: center;
+    font-size: 35px;
+    background-color: rgba(39, 35, 35, 0.329);
+    border-radius: 3px;
+    padding: auto;
+    transition: width 1s, height 1s;
+}
+
+.home:hover, .contacts:hover, .about:hover {
+    margin-bottom: -150px;
+    color: rgb(187, 33, 141);
+    text-decoration: none;
+    text-align: center;
+    font-size: 40px;
+    background-color: rgba(168, 14, 14, 0.329);
+    border-radius: 3px;
+    padding: auto;
+    transition: font 0.4s;
+}
+
+aside {
+    text-align: center;
+    background-color: rgba(43, 194, 38, 0.452);
+    margin-left: 1650px ;
+    margin-top: -175px;
+    
+}
+
+footer {
+    text-align:right;
+    margin: auto;
+    margin-top: 575px;
+    background-color: rgba(135, 229, 143, 0.658);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+

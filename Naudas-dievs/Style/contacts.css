@@ -1,0 +1,26 @@
+header {
+    background-color: rgb(125, 219, 96);
+    height: 50px;
+    text-align: center;
+    
+}
+header a {
+    margin-bottom: -150px;
+    color: rgb(247, 255, 251);
+    text-decoration: none;
+    text-align: center;
+    font-size: 35px;
+    background-color: rgba(39, 35, 35, 0.329);
+    border-radius: 3px;
+    padding: auto;
+}
+.home:hover, .contacts:hover, .about:hover {
+    margin-bottom: -150px;
+    color: rgb(187, 33, 141);
+    text-decoration: none;
+    text-align: center;
+    font-size: 40px;
+    background-color: rgba(168, 14, 14, 0.329);
+    border-radius: 3px;
+    padding: auto;
+}
